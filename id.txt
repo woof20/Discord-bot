@@ -1,6 +1,1 @@
-539930762485432322
-
 https://discordapp.com/api/oauth2/authorize?client_id=539930762485432322&scope=bot&permissions=0
-
-
-NTM5OTMwNzYyNDg1NDMyMzIy.DzJjLg.NS27_cWxGkZRJaCszVo43eUmQOs
