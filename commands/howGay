@@ -1,0 +1,19 @@
+const Commando = require('discord.js-commando');
+
+class GayCommand extends Commando.Command {
+  constructor(client) {
+    super(client, {
+      name:'howGay',
+      group:'fun',
+      memberName:'username',
+      description:'Decribes how gay someone is. ;)'
+    });
+  }
+  
+  async run(message, args) {
+    var percentage = Math.floor.random(1, 100);
+    message.reply({username} is {percentage}gay. :0);
+  }
+}
+
+module.exports = howGayCommand
