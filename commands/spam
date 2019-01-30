@@ -1,0 +1,21 @@
+const Commando = require('discord.js-commando');
+
+class SpamCommand extends Commando.Command {
+  constructor(client) {
+    super(client, {
+      name: 'spam',
+      group: 'fun',
+      memberName: 'username',
+      description: 'Spams a certain user.'
+    });
+  }
+
+  async run(message) {
+    for(x < 11;) {
+      message.reply({username});
+      x++;
+    }
+  }
+}
+
+module.exports = SpamCommand;
